@@ -9,7 +9,7 @@ export default function AppRouter() {
             <Navbar />
             <Routes>
                 <Route path='/' element={<HomePage />} />
-                <Route path='/section' element={<SectionPage />} /> 
+                <Route path='/services' element={<SectionPage />} /> 
             </Routes>
         </BrowserRouter>
     )
